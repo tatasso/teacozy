@@ -1,0 +1,173 @@
+/* Universal Styles */
+
+body,
+a {
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  background: black;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+  display: flex;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav a,
+nav span {
+  text-decoration: underline;
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Mission Section */
+
+.mainsection {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#missioncontainer {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.missioncontent {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/*.monthlyfeature {
+  width: 1000px;
+  height: 700px;
+}*/
+
+/* Teas of the Month */
+
+/*.featurecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}*/
+
+.featureditem {
+  padding: 5px;
+}
+
+.featureditem img {
+  height: 200px;
+  margin: 10px
+  display: block;
+  padding: 5px;
+}
+
+.featureditem span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Locations */
+
+.locationcoantiner {
+  flex-wrap: wrap;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+}
+
+.locationcoantiner h2 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+.locationcontaineritems {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.locationitems {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div .locationitems {
+  width: 277px;
+  height: 300px;
+}
+
+.container.locationitems {
+  padding-top: 5px;
+}
+
+p .locationitems {
+  padding-top; 10px;
+  padding-bottom; 10px;
+}
+
+#locationcontainer .locationcontaineritems {
+  margin: auto;
+  width: 1100px;
+}
+
+#locationcontainer .container {
+  padding-top: 15px;
+}
+
+/* Contact Us */
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
